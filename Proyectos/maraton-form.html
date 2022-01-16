@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+</head>
+
+<body>
+    <Header>
+        <h1>
+            Registration Form
+        </h1>
+    </Header>
+    <Form action="">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" placeholder="Enter first name" name="firstName"requiredrequired>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="Enter last name" name="lastName"required>
+        <section>
+            <!-- Section for radius selection -->
+            <div>
+                <input type="radio" id="funrun" name="race" value="funrun">
+                <label for="funrun">Fun Run 5k</label>
+            </div>
+
+            <div>
+                <input type="radio" id="half" name="race" value="half-Marathon">
+                <label for="half">Half Marathon 5k</label>
+            </div>
+
+            <div>
+                <input type="radio" id="full" name="race" value="full-Marathon">
+                <label for="full">Full Marathon 5k</label>
+            </div>
+        </section>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"required>
+        </div>
+
+        <div>
+            <!-- div for options (age group) -->
+            <label for="division">Select Age Group</label>
+            <select name="division" id="division">
+                <option value="kids">Under 18</option>
+                <option value="ya">18 - 30</option>
+                <option value="adults">30 - 50 </option>
+                <option value="seniors">50 +</option>
+            </select>
+        </div>
+        <button>Register</button>
+
+    </Form>
+</body>
+
+</html>
