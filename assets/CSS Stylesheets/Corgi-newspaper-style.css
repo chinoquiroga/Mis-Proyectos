@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo>h1 {
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: thin solid;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.squareFormat {
+    padding: 10px;
+    border: thin solid;
+    flex: 1 1 25%;
+}
+
+.distribution {
+    flex: 2 2 50%;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.corgiImage {
+    width: 100%;
+    height: auto;
+}
+
+.downSection {
+    display: flex;
+    flex-direction: row;
+    border: thin solid;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.downDistribution {
+    flex: 3 3 75%;
+    display: flex;
+}
+
+.rainbow {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.rainbowcolors {
+    width: 100%;
+    height: 20%;
+}
